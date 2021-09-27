@@ -1,0 +1,214 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Hakkani Charity
+	Template URI: http://www.Hakkani-it.com
+	Description: Donation Your Area People
+	Author: Golam Hakkani Mim
+	Author URI: http://www.Hakkani-mim.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Top Header Area
+		2.1 Logo Text
+		2.2 Main Logo
+		2.3 Total Budget 
+	3. Header-Bottom / Main Header 
+	4. Donar Organizations
+	   4.1 Donar aim and Their budget
+	   4.2 Total Budget & numbers of donars
+	5. Volunteers
+	6. Where We spend  ?? 
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Raleway:wght@300;500;600&display=swap');
+
+body{
+	/* font-family: 'Carattere', cursive;
+	font-family: 'Poppins', sans-serif; */
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+
+/**************** 2. Top Header Area ********/
+.headerText{
+	font-family: 'Carattere', cursive;
+	text-align: center;
+
+}
+.headerText h2 {
+    color: #ff35ae;
+    font-size: 46px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.logo{
+	text-align: center;
+}
+.logo img {
+    height: 113px;
+    width: 286px;
+    border-radius: 50%;
+}
+.header-btn{
+	text-align: center;
+}
+.header-btn button {
+    background-color: #FF35AE;
+    color: #fff;
+    padding: 15px 25px;
+    margin-top: 26px;
+}
+
+/********************Background charity ************************/
+.background-charity{
+	height: 750px;
+	background-position:center bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+.background-style{
+	background:linear-gradient(0,0,0,0.5)
+}
+
+.header-inner-text{
+    position: absolute;
+    top: 200px;
+    right: 10%;
+	
+}
+
+.header-inner-text h1 {
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Raleway';
+    line-height: 74px;
+}
+
+.header-inner-text button {
+    background-color: #FF35AE;
+    color: #fff;
+    padding: 15px 41px;
+    margin-top: 0px;
+    border: 0px;
+    border-radius: 27px;
+}
+/************ Donar Organizations ***************/
+.d-org {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 2px 3px #ff35ae;
+    letter-spacing: 4px;
+}
+.social-icon{
+text-align: center;
+margin-bottom: 25px;
+}
+.card-body ul>li{
+	display: inline;
+	margin-right: 25px;
+}
+
+.card-body button {
+    background-color: #FF35AE;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 17px;
+    text-align: center;
+    width: 88%;
+    margin-left: 20px;
+    border: 0px;
+}
+.card-title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.total-budget {
+    background-color: #ffecf0;
+    height: auto;
+    padding: 100px;
+    text-shadow: 4px 3px 7px #c39fbd;
+	height: 500px;
+}
+.total-budget button {
+    background-color: #af106f;
+    color: #fff;
+    padding: 15px 25px;
+    text-align: center;
+    width: 59%;
+    border-radius: 37px;
+    margin-left: 43px;
+    border: 0px;
+}
+
+/* voluntree section */
+
+.team-member{
+position: relative;
+margin-top: 150px;
+margin-bottom: 100px;
+}
+.team-member img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 0;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -104px;
+}
+.team-member h2 {
+    line-height: 49px;
+    margin-top: 57px;
+}
+.team-member p{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.another {
+    background-color: #f2f2f2;
+    padding: 25px;
+    width: 77%;
+    text-align: center;
+	height: 312px;
+	
+}
+.social-icon2{
+
+}
+.social-icon2 li{
+	display: inline-block;
+	margin-right: 25px;
+}
+.social-icon2{
+	
+}
+
+/*
+ footer section area 
+*/
+footer {
+    background: #f9f7f7;
+    margin-top: 5px;
+    padding: 14px;
+}
+footer h2 {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
